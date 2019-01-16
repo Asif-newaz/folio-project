@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #403d40;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.white-box{
+    background-image: url("/images/header_bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.images-white-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 180px;
+}
+.hello{
+    font-size: 140px;
+    margin: 0;
+    margin-top: 1em;
+    margin-left: -12px;
+}
+.paragraph{
+    font-size: 12px;
+    width: 50%;
+    color: #aeadae;
+}
+
+.colorful-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: -180px; 
+}
+.boxes{
+    height: 600px;
+    flex-basis: 50%;
+    background-color: #baecee;
+}
+
+.top-left{
+    background-color: #baecee;
+}
+.top-right{
+    background-color: #fae1ef;
+}
+.bottom-left{
+    background-color: #fefbe5;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+.btn{
+    background: none;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #403d40;
+    margin: 60px;
+    display: inline-flex;
+    align-items: center;
+    width: 128px;
+    position: relative;
+    height: 36px;
+}
+.btn .line {
+    display: inline-block;
+    width: 64px;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    left: -32px;
+}
+
+.btn .caption {
+    position: absolute;
+    right: -28px;
+}
+.bottom-right{
+    background-color: #e8bdf5;
+}
+.blue-box{
+    padding-top: 200px;
+    background-color: #f2fbfb;
+    text-align: center;
+}
+.loading{
+    font-size: 15px;
+    letter-spacing: 10px;
+    font-weight: 800;
+    color: #403d40;
+}
+.phone-num{
+    font-size: 48px;
+
+}
+.paragraph-file{
+    color: #aeadae;
+    font-size: 12px;
+    width: 50%;
+    margin: 0 auto; 
+}
+.social-site{
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    font-weight: 600;
+}
